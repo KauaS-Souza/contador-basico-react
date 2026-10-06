@@ -1,0 +1,79 @@
+.card-exemplo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.numero-contador {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0070F3;
+    background-color: #F0F7FF;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #BAE0FF;
+}
+
+.passo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.passo-container input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0,8rem;
+}
+
+.btn-incrementar {
+    background: #10B981;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-incrementar:hover {
+    background: #02865A;
+}
+
+.btn-decrementar {
+    background: #FF3939;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-decrementar:hover {
+    background: #FE0707;
+}
+
+.btn-resetar {
+    background: #949494;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btn-resetar:hover {
+    background: #4e4e4e;
+}
